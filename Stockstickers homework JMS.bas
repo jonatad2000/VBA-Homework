@@ -4,7 +4,7 @@ Sub Stocktickers()
 Dim ticker As String
 Dim open_price, closing_price As Double
 Dim yearly_change, percent_change As Double
-Dim Total_stock_volume As LongLong
+Dim Total_stock_volume As Double
 
 ' Loop through all sheets of the whorksheets
 For Each ws In ThisWorkbook.Worksheets
